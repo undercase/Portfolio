@@ -1,0 +1,168 @@
+body {
+  font-family: 'Open Sans';
+  background: #f6f8fa;
+}
+
+a {
+  text-decoration: none;
+}
+
+.green {
+  color: #1FDA9A;
+}
+
+.yellow {
+  color: #e8b71a;
+}
+
+.red {
+  color: #DB3340;
+}
+
+.blue {
+  color: #28abe3;
+}
+
+.header-container, .projects-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+
+  transition: all .2s ease-in-out;
+}
+
+.header-container {
+  background: #fff;
+}
+
+.projects-container {
+  background: #f6f8fa;
+}
+
+.header, .projects {
+  width: 100%;
+  max-width: 1100px;
+  margin: auto;
+  padding: 0 2rem;
+  box-sizing: border-box;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+
+.header h1 {
+  font-size: 3em;
+}
+
+.contact {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.contact a {
+  text-transform: uppercase;
+  padding-right: 40px;
+  font-weight: 600;
+
+  opacity: 0.8;
+  transition: opacity 0.2s ease-in-out;
+}
+
+.contact a:hover {
+  opacity: 1;
+}
+
+.contact a:last-child {
+  padding-right: 0;
+}
+
+.projects {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: stretch;
+}
+
+.projects .row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: stretch;
+
+  margin-top: 2rem;
+  margin-bottom: 0rem;
+}
+
+.projects .row:last-child {
+  margin-bottom: 2rem;
+}
+
+.project {
+  width: 31%;
+  box-sizing: border-box;
+
+  background: #fff;
+  box-sizing: border-box;
+
+  transition: transform .3s ease-in-out;
+  transition: box-shadow: .2s ease-in-out;
+
+  cursor: pointer;
+}
+
+.project:hover {
+  box-shadow: 0 0 14px rgba(0,0,0,.12);
+  transform: scale(1.025);
+}
+
+.project .text {
+  padding: 2rem;
+}
+
+.project img {
+  width: 100%;
+  height: auto;
+}
+
+.project h3 {
+  font-size: 1.75em;
+  margin: 0;
+  padding: 0;
+  transition: all;
+  margin-bottom: 1rem;
+}
+
+.project .description {
+  font-weight: normal;
+}
+
+.project .description p {
+  font-size: 1.2em;
+  margin: 0;
+  padding: 0;
+}
+
+.project .description a, .project .description a:active, .project .description a:visited {
+  color: inherit;
+  transition: all .2s ease-in-out;
+  opacity: 0.8;
+}
+
+.project:hover .description a {
+  color: #28abe3;
+}
+
+.project .description a:hover {
+  text-decoration: underline;
+  opacity: 1;
+}
