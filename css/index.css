@@ -76,7 +76,7 @@ a {
 .contact a {
   text-transform: uppercase;
   padding-right: 40px;
-  font-weight: 600;
+  font-weight: 5  00;
   transition: all 0.2s ease-in-out;
 }
 
@@ -179,6 +179,7 @@ a {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  padding-bottom: 2rem;
 }
 
 .footer h2 {
