@@ -73,13 +73,7 @@ a {
   text-transform: uppercase;
   padding-right: 40px;
   font-weight: 600;
-
-  opacity: 0.8;
-  transition: opacity 0.2s ease-in-out;
-}
-
-.contact a:hover {
-  opacity: 1;
+  transition: all 0.2s ease-in-out;
 }
 
 .contact a:last-child {

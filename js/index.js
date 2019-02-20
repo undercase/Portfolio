@@ -9,13 +9,13 @@ $(document).ready(() => {
     $("h1").css("color", "#000");
   });
 
-  $(".yellow").hover(() => {
-    $(".header-container").css("background", "#E8B71A");
-    $(".yellow").css("color", "#fff");
+  $(".blue").hover(() => {
+    $(".header-container").css("background", "#28abe3");
+    $(".blue").css("color", "#fff");
     $("h1").css("color", "#fff");
   }, () => {
     $(".header-container").css("background", "#fff");
-    $(".yellow").css("color", "#E8B71A");
+    $(".blue").css("color", "#28abe3");
     $("h1").css("color", "#000");
   });
 
